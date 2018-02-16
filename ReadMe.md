@@ -11,7 +11,14 @@ Vue Typing Animation is an animation that shows the typing effect of the input s
 > seongwon9179@gmail.com
 
 #### Use
+
+
 사용법은 매우 간단합니다. 컴포넌트를 import 한후 typing-animation 태그를 선언하면 됩니다.
+~~~
+  import vue-typing-animation from "vue-typing-animtaion/src/typing.animation.module"
+  
+  Vue.use(vue-typing-animation)
+~~~
 ~~~
   <typing-animation/>
 ~~~
